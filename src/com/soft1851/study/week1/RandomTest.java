@@ -21,7 +21,7 @@ public class RandomTest {
             content = random.nextInt(number);
             text[i] = content+"\n";
         }
-        File file = new File("D:/java_test/randomText.txt");
+        File file = new File("D:/java-holiday-study/randomText.txt");
         try {
             if (!file.exists()){
                 boolean exist = file.createNewFile();
